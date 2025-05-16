@@ -8,6 +8,7 @@
    pip install -r requirements.txt
    ```
 3. Download Caltech-101 dataset and extract into `data/caltech-101`.
+   解压数据集caltech-101.zip：https://pan.baidu.com/s/1Dyb14HwbnKEmm1LwyYFjEw?pwd=yp9n 提取码: yp9n
 4. Prepare split files (`splits/train.txt`, `splits/val.txt`, `splits/test.txt`).
 
 ## Training
