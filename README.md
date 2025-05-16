@@ -14,17 +14,17 @@
 
 ## Training
 ```
-python39 train.py --pretrained --data_root data/caltech-101 --train_split splits/train.txt --val_split splits/val.txt --epochs 30 --batch_size 32 --lr 1e-3 --finetune_lr 1e-4 --logdir logs/001
+python train.py --pretrained --data_root data/caltech-101 --train_split splits/train.txt --val_split splits/val.txt --epochs 30 --batch_size 32 --lr 1e-3 --finetune_lr 1e-4 --logdir logs/001
 
-python39 train.py --pretrained --data_root data/caltech-101 --train_split splits/train.txt --val_split splits/val.txt --epochs 50 --batch_size 32 --lr 1e-3 --finetune_lr 1e-5 --logdir logs/002
+python train.py --pretrained --data_root data/caltech-101 --train_split splits/train.txt --val_split splits/val.txt --epochs 50 --batch_size 32 --lr 1e-3 --finetune_lr 1e-5 --logdir logs/002
 
-python39 train.py --pretrained --data_root data/caltech-101 --train_split splits/train.txt --val_split splits/val.txt --epochs 50 --batch_size 64 --lr 5e-4 --finetune_lr 5e-5 --logdir logs/003
+python train.py --pretrained --data_root data/caltech-101 --train_split splits/train.txt --val_split splits/val.txt --epochs 50 --batch_size 64 --lr 5e-4 --finetune_lr 5e-5 --logdir logs/003
 
-python39 train.py --pretrained --data_root data/caltech-101 --train_split splits/train.txt --val_split splits/val.txt --epochs 30 --batch_size 32 --lr 1e-2 --finetune_lr 1e-3 --logdir logs/004
+python train.py --pretrained --data_root data/caltech-101 --train_split splits/train.txt --val_split splits/val.txt --epochs 30 --batch_size 32 --lr 1e-2 --finetune_lr 1e-3 --logdir logs/004
 
-python39 train.py --pretrained --data_root data/caltech-101 --train_split splits/train.txt --val_split splits/val.txt --epochs 60 --batch_size 64 --lr 1e-2 --finetune_lr 1e-3 --logdir logs/005
+python train.py --pretrained --data_root data/caltech-101 --train_split splits/train.txt --val_split splits/val.txt --epochs 60 --batch_size 64 --lr 1e-2 --finetune_lr 1e-3 --logdir logs/005
 
-python39 train.py --data_root data/caltech-101 --train_split splits/train.txt --val_split splits/val.txt --epochs 30 --batch_size 32 --lr 1e-2 --finetune_lr 1e-3 --logdir logs/006
+python train.py --data_root data/caltech-101 --train_split splits/train.txt --val_split splits/val.txt --epochs 30 --batch_size 32 --lr 1e-2 --finetune_lr 1e-3 --logdir logs/006
 ```
 查看Acc/Loss曲线：
 ```
